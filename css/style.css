@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
 /* css decorations */
 :root {
 	--bg-color: #2d3945;
@@ -21,7 +23,7 @@ html {
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Karla", sans-serif;
 	font-size: 1.6rem;
 	line-height: 1.6;
 }
@@ -130,6 +132,14 @@ fieldset {
 	text-align: center;
 }
 
+#html:checked + label,
+#css:checked + label,
+#js:checked + label,
+#html-2:checked + label,
+#plain:checked + label {
+	font-weight: bolder;
+	color: var(--bg-color);
+}
 
 .select-group select {
 	padding: 1.5rem;
@@ -180,7 +190,7 @@ input,select{
 }
 
 .input-group #zip {
-	width: 20rem;
+	width: 50%;
 	margin-bottom: 3rem;
 }
 
@@ -256,25 +266,38 @@ input,select{
 		font-size: 2.4rem;
 	}
 
-	.input-group {
+	.input-group,
+	.select-group
+	{
 		display: flex;
 		margin-bottom: 2rem;
 		width: 100%;
 	}
 
-	.input-group label {
+	.input-group label,
+	.select-group label {
 		flex: 0 0 20rem;
 
 	}
 
-	.input-group input {
+	.input-group input,
+	.select-group select
+	{
 		flex: 1;
 	}
 
 	.input-group #zip {
-		flex: 0 0 30rem;
+		flex: 0 0 25%;
 	}
 
 }
 
 /* end of media for desktop */
+/* 
+font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+
+*/
