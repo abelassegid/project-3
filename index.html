@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header-begin -->
+    <header class="header-main">
+        <div class="container">
+            <div class="header">
+                <h1>the code review</h1>
+            </div>
+        </div>
+    </header>
+    <!-- end of header` -->
+
+    <!-- start of section -->
+    <section class="title-main">
+        <div class="container">
+            <div class="title">
+                <h2>signup for our newsletter</h2>
+                <p>get the latest news on how your code is doing right in your inbox </p>
+            </div>
+        </div>
+    </section>
+    <!-- end of section -->
+
+    <!-- start of form-reg -->
+    <section class="form-reg-main">
+        <div class="container">
+            <div class="form-reg">
+                <form action="index.php" class="form">
+                    <div class="line"></div>
+                    <fieldset>
+
+                        <legend>contact information</legend>
+
+                        <div class="input-group">
+                            <label for="full">full name</label>
+                            <input type="text" name="name" id="full" placeholder="required">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">email address</label>
+                            <input type="email" name="email" id="email" placeholder="required">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="phone">phone number</label>
+                            <input type="tel" name="mobile" id="phone">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="street">street address</label>
+                            <input type="text" name="address" id="street">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="city">city</label>
+                            <input type="text" name="city" id="city">
+                        </div>
+
+                        <div class="select-group">
+                            <label for="state">state</label>
+                            <select name="state" id="state">
+                                <option value="new-york">new york</option>
+                                <option value="las-vegas">las vegas </option>
+                                <option value="california">california</option>
+                                <option value="miami">miami</option>
+                                <option value="florida">florida</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="zip">zip code</label>
+                            <input type="text" name="zip" id="zip">
+                        </div>
+
+                    </fieldset>
+                    <div class="line"></div>
+                    <fieldset>
+
+                        <legend>newsletter</legend>
+                        <p class="note-format">select the newsletters you would like to recive</p>
+                        <div class="checkbox-group">
+                            <input type="checkbox" name="newsletter" id="html">
+                            <label for="html">html news</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" name="newsletter" id="css">
+                            <label for="css">css news</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" name="newsletter" id="java">
+                            <label for="java">javascript news</label>
+                        </div>
+
+                        <p class="note-format">newsletter format</p>
+                        <div class="radio-group">
+                            <input type="radio" name="newsletter-format" id="html-2">
+                            <label for="html-2">html</label>
+                        </div>
+                        <div class="radio-group">
+                            <input type="radio" name="newsletter-format" id="plain">
+                            <label for="plain">plain text</label>
+                        </div>
+
+                        <p class="note-format">other topics you'd like to hear about</p>
+                        <label for="textarea"></label>
+                        <textarea class="textarea" name="text" id="textarea"></textarea>
+                        <button class="sign-up">sign up</button>
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- start of form reg -->
+</body>
+
+</html>
