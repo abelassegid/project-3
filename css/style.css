@@ -101,13 +101,15 @@ h1 {
 	border-top: 6px solid var(--bg-color);
 	margin: 0 auto;
 }
-.line{
-	background-color:var(--bg-color);
+
+.line {
+	background-color: var(--bg-color);
 	height: 3px;
-	margin-top:0.5rem;
+	margin-top: 0.5rem;
 	margin-bottom: 2rem;
 	width: 100%;
 }
+
 .input-group label,
 
 .select-group label,
@@ -115,13 +117,15 @@ h1 {
 	display: block;
 	width: 100%;
 }
-legend{
+
+legend {
 	text-transform: capitalize;
 	margin-bottom: 2rem;
 	text-align: left;
 	font-size: 2rem;
 	font-weight: 900;
 }
+
 fieldset {
 	border: 0;
 	margin-top: 4px;
@@ -132,11 +136,11 @@ fieldset {
 	text-align: center;
 }
 
-#html:checked + label,
-#css:checked + label,
-#js:checked + label,
-#html-2:checked + label,
-#plain:checked + label {
+#html:checked+label,
+#css:checked+label,
+#js:checked+label,
+#html-2:checked+label,
+#plain:checked+label {
 	font-weight: bolder;
 	color: var(--bg-color);
 }
@@ -149,20 +153,22 @@ fieldset {
 	width: 100%;
 	outline: 0;
 }
+
 .input-group label,
-.select-group label
-{
+.select-group label {
 	color: var(--p-color);
 	text-transform: uppercase;
 	padding: 1rem 0;
 }
-input,select{
+
+input,
+select {
 	font-size: inherit;
-	color:var(--bg-color);
+	color: var(--bg-color);
 }
+
 .input-group input,
-.select-group select
-{
+.select-group select {
 	padding: 1.5rem;
 	border-radius: 0.5rem;
 	background-color: #d9d9d9;
@@ -170,8 +176,7 @@ input,select{
 }
 
 .input-group input:focus,
-.select-group select:focus
-{
+.select-group select:focus {
 	border: 1px solid var(--bg-color);
 }
 
@@ -225,6 +230,12 @@ input,select{
 	margin-bottom: 1rem;
 }
 
+.last-note {
+	color: var(--p-color);
+	margin-bottom: 1rem;
+	display: block;
+}
+
 .textarea {
 	width: 100%;
 	height: 120px;
@@ -267,8 +278,7 @@ input,select{
 	}
 
 	.input-group,
-	.select-group
-	{
+	.select-group {
 		display: flex;
 		margin-bottom: 2rem;
 		width: 100%;
@@ -281,8 +291,7 @@ input,select{
 	}
 
 	.input-group input,
-	.select-group select
-	{
+	.select-group select {
 		flex: 1;
 	}
 
